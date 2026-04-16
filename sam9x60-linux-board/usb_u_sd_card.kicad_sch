@@ -1,0 +1,12 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "161ed153-ec85-48c2-8689-8bc2873cc43e")
+	(paper "A4")
+	(title_block
+		(rev "v0.1")
+		(comment 4 "Author: Ruchir Chauhan")
+	)
+	(lib_symbols)
+)

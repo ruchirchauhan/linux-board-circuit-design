@@ -1,0 +1,440 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a7639abd-af50-4fda-a028-1a4223deb2af")
+	(paper "A4")
+	(title_block
+		(title "main")
+		(date "2026-02-12")
+		(rev "v0.1")
+		(comment 4 "Author: Ruchir Chauhan")
+	)
+	(lib_symbols)
+	(sheet
+		(at 121.92 123.19)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0831a31c-e972-41d0-a359-570c4adf653b")
+		(property "Sheetname" "usb_host"
+			(at 121.92 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_host.kicad_sch"
+			(at 121.92 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 50.8)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0aae6a23-7fea-4972-972c-bacb48482d23")
+		(property "Sheetname" "power_pmic"
+			(at 204.47 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_pmic.kicad_sch"
+			(at 204.47 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 26.67)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bf60b12-9a69-4c91-8619-0a710f3b6de4")
+		(property "Sheetname" "sam_a_b_plus"
+			(at 121.92 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sam_a_b_plus.kicad_sch"
+			(at 121.92 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 74.93)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "51c3e920-5d03-483a-9b69-ed67f74ff75a")
+		(property "Sheetname" "user_interface"
+			(at 204.47 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_interface.kicad_sch"
+			(at 204.47 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 74.93)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "663a9c2e-0bd0-46c9-8382-9f4127aa7b25")
+		(property "Sheetname" "sam_gnd"
+			(at 121.92 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sam_gnd.kicad_sch"
+			(at 121.92 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 99.06)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b10de95-74f2-4c2e-9e29-fde45eed0fea")
+		(property "Sheetname" "debug_interface"
+			(at 204.47 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debug_interface.kicad_sch"
+			(at 204.47 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 146.05)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "995ac11f-50fd-459c-878f-d97ef797edda")
+		(property "Sheetname" "storage"
+			(at 204.47 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "storage.kicad_sch"
+			(at 204.47 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 26.67)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a0fc0a55-04e5-45ef-b84e-0feaa9a052b3")
+		(property "Sheetname" "sam_power"
+			(at 204.47 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sam_power.kicad_sch"
+			(at 204.47 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 50.8)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aaf4074a-af59-4ab8-81a8-2f0fc68aa8b3")
+		(property "Sheetname" "sam_c_d_plus"
+			(at 121.92 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sam_c_d_plus.kicad_sch"
+			(at 121.92 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 123.19)
+		(size 76.2 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb7f33e5-41e2-4928-9280-95e7ffbd50d3")
+		(property "Sheetname" "ethernet"
+			(at 204.47 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 204.47 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sam9x60-linux-board"
+				(path "/a7639abd-af50-4fda-a028-1a4223deb2af"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
