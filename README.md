@@ -4,6 +4,13 @@ A custom-designed embedded development board based on the **Microchip SAM9X60** 
 
 The project started with the goal of designing a minimal, fully functional Linux-capable board using the SAM9X60, taking inspiration from Microchip's SAM9X60 Curiosity evaluation board.
 
+## Software Repository
+
+The Operating System and board-bringup related documentation are maintained separately:
+
+**[Linux Board OS](https://github.com/ruchirchauhan/linux-board-os)**
+
+
 ## Board Images
 
 ### 3D PCB Render
